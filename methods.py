@@ -38,5 +38,6 @@ s2.show_info()       # Sanju studies at XYZ School
 
 # Static methods
 Student.greet()      # Hello Students!
-Student.custom_greet(s1.name, Student.school_name)
-# Output: Ash studies at XYZ School
+Student.custom_greet(s1.name, Student.school_name)  # Output: Ash studies at XYZ School
+
+s1.greet() # static methods can be utilized with obj also.
