@@ -69,4 +69,4 @@ class Child2(Parent2):
 or2 = Child2()
 or2.display() # This is the Parent Class Methos 
 
-# super() is recovered the Parent class methods which was overridden by the child class.
+# super() is recovered the Parent class methods which was overridden by the child.
