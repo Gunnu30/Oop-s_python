@@ -4,8 +4,9 @@ class Student:
     def __init__(self, name):
         self.name = name         # instance attribute
 
-    # Instance method → works with object data
-    def show_info(self):
+    # Instance method → works with object data, self is a reference.
+
+    def show_info(self):    # self makes the method as instance method
         print(f"{self.name} studies at {self.school_name}")
 
     # Class method → works with class data
@@ -14,7 +15,8 @@ class Student:
         cls.school_name = new_name
 
     # Static method → utility, no self/cls
-    @staticmethod
+    
+    @staticmethod   # Static mehtod can be accessed by both class and instance.
     def greet():
         print("Hello Students!")
 
