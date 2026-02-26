@@ -1,4 +1,10 @@
 # 1. THE CLASS (The Blueprint)
+
+# In python every variable is a object
+
+
+import utils.transport
+import utils.session
 class MyClass:
     def __init__(self):
         # This runs the moment an object is "born"
